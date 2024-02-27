@@ -1,0 +1,15 @@
+%real numbers
+rand() = bir adet 0-1 arası reel sayı
+rand(m,n) = m x n formatında 0-1 aralarında sayılardan olışan matrix
+rand(m,m) or rand(m) = m x m formatında 0-1 arasında sayılardan oluşan matris
+(b-a)*rand()+a = a-b arası reel sayı
+(b-a)*rand(m,n)+a = a-b arası m x n formatında matrix
+
+%int numbers
+randi(k) = 1-k arası tam sayı, sınırlar dahil
+randi([h,k]) = h-k arası
+randi(k,m,n) = 1-k arası tam sayılardan oluşan m x n matrisi
+randi(k,m,m) = 1-k arası tam sayılardan oluşan m x m matrisi
+randi([h,k],n,m) = h-k arası n x m matrisi
+randi(x,y,z) = 1den x e kadar y x z matrisi
+
